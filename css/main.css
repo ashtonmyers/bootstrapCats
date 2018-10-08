@@ -1,0 +1,19 @@
+.jumbotron {
+	background-image: url(../img/jumbo.jpg);
+	background-size: cover;
+	background-position: center center
+}
+
+.jumbotron > div {
+	background-color: rgba(255,255,255,0.6);
+}
+
+#catCarousel {
+	height: 600px;
+	overflow: hidden;
+}
+
+#catCarousel img {
+	height: 600px;
+	object-fit: cover;
+}
